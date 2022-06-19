@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border: 2px solid tomato;
+    padding: 30px;
+    width: 40%;
+}
+.title{
+   color: dodgerblue ; 
+   margin: 10% auto;
+   text-align: center;
+   font-size: 25px;
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    align-items: center;
+}
+.input{
+    font-size: 18px;
+    padding: 5px;
+}
+.submit .label{
+    font-size: 18px;
+}
+.submit .button{
+    padding: 5px 10px;
+}
+.submit .button:hover{
+    cursor: pointer;
+}
+.view-result{
+    display: flex;
+}

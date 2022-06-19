@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <nav class="navbar">
+        <h3>Entry Test</h3>
+        <div class="menu-toggle" id="mobile-menu">
+          
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav no-search">
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Project</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      </div>
+    <div class="banner">
+      <div class="banner-bg">
+        <img src="./img/bg-masthead.jpg" alt="">
+        <div class="bg"></div>
+      </div>
+      <div class="banner-content">
+        <div class="banner-content-top">
+          <h1>LOREM</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, fugit quia nihil animi eligendi totam vitae
+            iure nam quisquam quaerat nulla aliquid autem odio officiis aperiam eveniet, at numquam fugiat!</p>
+          <button class="banner-btn">GET ET</button>
+        </div>
+        <div class="banner-content-bottom">
+          <h3>Built with ET</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, ipsum culpa beatae corporis mollitia
+            excepturi eum fuga quaerat quasi iusto tempore repellat eos ullam voluptas rem sit sapiente assumenda
+            officiis?
+            <span style="color:aquamarine;text-decoration: underline; ">the preview page.</span> Lorem ipsum dolor sit
+            amet consectetur, adipisicing elit. Magnam, ipsum culpa beatae corporis mollitia excepturi eum fuga quaerat
+            quasi iusto tempore repellat eos ullam voluptas rem sit sapiente assumenda officiis?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-detail">
+        <img src="./img/bg-masthead.jpg" alt="">
+        <div class="project-content">
+          <h3>Shoreline</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nemo praesentium possimus debitis itaque
+            esse ipsum beatae sequi, vitae exercitationem sint odit alias! Quibusdam culpa sit quae laboriosam, suscipit
+            maxime.</p>
+        </div>
+      </div>
+      <div class="project-demo">
+        <img src="./img/demo-image-01.jpg" alt="">
+        <div class="project-content">
+          <h3>Misty</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nemo praesentium possimus debitis itaque
+            esse ipsum beatae sequi, vitae exercitationem sint odit alias! Quibusdam culpa sit quae laboriosam, suscipit
+            maxime.</p>
+        </div>
+      </div>
+      <div class="project-demo">
+        <div class="project-content project-content-pc">
+          <h3>Mountains</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nemo praesentium possimus debitis itaque
+            esse ipsum beatae sequi, vitae exercitationem sint odit alias! Quibusdam culpa sit quae laboriosam, suscipit
+            maxime.</p>
+        </div>
+        <img src="./img/demo-image-02.jpg" alt="">
+        <div class="project-content project-content-mobile">
+          <h3>Mountains</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nemo praesentium possimus debitis itaque
+            esse ipsum beatae sequi, vitae exercitationem sint odit alias! Quibusdam culpa sit quae laboriosam, suscipit
+            maxime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contact-bg">
+        <img src="./img/bg-signup.jpg" alt="">
+        <div class="contact-bg-cover"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-detail">
+          <img src="./img/paper-plane.png" alt="" width="50">
+          <h1>Lorem!</h1>
+          <div class="contact-submit">
+            <input placeholder="ENTER EMAIL ADDRESS..." class="contact-input" type="text">
+            <button class="contact-btn">Notify me!</button>
+          </div>
+        </div>
+        <div class="contact-content-footer">
+          <p>Copyright © Your Website 2022</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+  <script>
+    document.querySelector('.menu-toggle').click(function(){
+      const toggle = document.querySelector('.nav').toggleClass("mobile-nav")
+      console.log(toggle);
+      toggle.toggleClass("is-active")
+    })
+  </script>
+</body>
+
+</html>
